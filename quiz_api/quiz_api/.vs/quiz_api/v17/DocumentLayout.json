@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:quiz_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T14:14:37.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quiz_api",
+              "DocumentMoniker": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj",
+              "RelativeDocumentMoniker": "quiz_api.csproj",
+              "ToolTip": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj",
+              "RelativeToolTip": "quiz_api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-25T14:14:30.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
