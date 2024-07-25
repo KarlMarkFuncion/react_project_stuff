@@ -12,10 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Dtos\Get\" />
+    <Folder Include="Dtos\Put\" />
+    <Folder Include="Dtos\Post\" />
     <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Data\" />
-    <Folder Include="Dtos\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

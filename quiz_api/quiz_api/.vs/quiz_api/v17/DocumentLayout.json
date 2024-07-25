@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|c:\\users\\karma\\desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A98E611-9407-44C8-BC41-01D025043DD8}|quiz_api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:07:29.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T08:31:42.213Z",
               "EditorCaption": ""
