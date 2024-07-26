@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj": {}
+    "C:\\Users\\Boot Camp\\Desktop\\bootcamp files\\react_projects\\react_project_stuff\\quiz_api\\quiz_api\\quiz_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj": {
+    "C:\\Users\\Boot Camp\\Desktop\\bootcamp files\\react_projects\\react_project_stuff\\quiz_api\\quiz_api\\quiz_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj",
+        "projectUniqueName": "C:\\Users\\Boot Camp\\Desktop\\bootcamp files\\react_projects\\react_project_stuff\\quiz_api\\quiz_api\\quiz_api.csproj",
         "projectName": "quiz_api",
-        "projectPath": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\quiz_api.csproj",
-        "packagesPath": "C:\\Users\\karma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karma\\Desktop\\bootcamp_files\\react_projects\\quiz_app\\quiz_api\\quiz_api\\obj\\",
+        "projectPath": "C:\\Users\\Boot Camp\\Desktop\\bootcamp files\\react_projects\\react_project_stuff\\quiz_api\\quiz_api\\quiz_api.csproj",
+        "packagesPath": "C:\\Users\\Boot Camp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Boot Camp\\Desktop\\bootcamp files\\react_projects\\react_project_stuff\\quiz_api\\quiz_api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\karma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Boot Camp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,13 +46,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -78,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WM2aOrtRCZSAaBBkbcoPZLRgXE9Izw5XM33QoAT4DpQ=",
+  "Source": "quiz_api",
+  "BasePath": "_content/quiz_api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

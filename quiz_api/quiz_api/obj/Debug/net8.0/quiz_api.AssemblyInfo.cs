@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("quiz_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7214154fdc5fd28e69af596973174c9f66819007")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f9bc6388a588d9ca055d356da0263b910eefb24")]
 [assembly: System.Reflection.AssemblyProductAttribute("quiz_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("quiz_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
