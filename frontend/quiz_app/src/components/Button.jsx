@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Button = ({ name, color, clickable = true, fullWidth = true, linkRoute, clickFunc }) => {
+const Button = ({ name, color, clickable = true, fullWidth = true, linkRoute, clickFunc = () => {}}) => {
     
-    
-    if(!clickFunc) {
-        const clickFunc = (e) => {
-            if (!clickable) {
-                e.preventDefault();
-            }
-        };
-    }
+    clickFunc = (e) => {
+        if (!clickable) {
+            e.preventDefault();
+        }
+    };
 
 
     // all styling will be contained here to avoid the bloating of div tag.
@@ -36,7 +33,7 @@ const Button = ({ name, color, clickable = true, fullWidth = true, linkRoute, cl
             <ButtonContent />
         </Link>
     ) : (
-        <ButtonContent />
+        <ButtonContent onClick={clickFunc} />
     );
 };
 
@@ -47,6 +44,7 @@ Button.propTypes = {
     clickable: PropTypes.bool,
     fullWidth: PropTypes.bool,
     linkRoute: PropTypes.string,
+    clickFunc: PropTypes.func
 };
 
 export default Button;
