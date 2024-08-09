@@ -22,14 +22,14 @@ function App() {
         <Route path="/home" element={<Home />}/>
         <Route path="/" element={<FeedPage/>}/> 
         <Route path="/quiz" element={<QuizRouter/>}>
-            <Route path="id" element={<IntroPage/>}>
-                <Route path="main_loop" element={<QuizPage/>}/>
-                <Route path="results" element={<ResultsPage/>}/>
-            </Route>
+            <Route path=":id" element={<IntroPage/>} />
+            <Route path=":id/main_loop" element={<QuizPage/>}/>
+            <Route path=":id/results" element={<ResultsPage/>}/>
+            <Route path="create_quiz" element={<CreateQuizPage/>} />
         </Route>
         <Route path="/user">
             <Route path="id">
-              <Route path="create_quiz" element={<CreateQuizPage/>} />
+              
             </Route>
         </Route>
         <Route element={<LoginSignupPage/>}>
