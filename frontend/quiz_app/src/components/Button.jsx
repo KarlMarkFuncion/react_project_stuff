@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Button = ({ name, color, clickable = true, fullWidth = true, linkRoute, clickFunc = () => {}}) => {
+const Button = ({ name, color, clickable = true, customWidth, linkRoute, clickFunc = () => {}}) => {
     
-    clickFunc = (e) => {
+    const handleClick = (e) => {
         if (!clickable) {
             e.preventDefault();
+        } else {
+            clickFunc(e);
         }
     };
-
 
     // all styling will be contained here to avoid the bloating of div tag.
     const buttonClass = `
         rounded-xl border border-b-4 px-5 py-2
         text-center
-        ${fullWidth ? "w-full" : ""}
+        ${customWidth ? `w-full md:w-${customWidth}` : "w-full"}
         ${!clickable ? "cursor-default" : ""}
         ${color === "success" ? "bg-green-500 border-green-600" : ""}
         ${color === "danger" ? "bg-red-600 border-red-700" : ""}
@@ -30,13 +31,13 @@ const Button = ({ name, color, clickable = true, fullWidth = true, linkRoute, cl
 
     return linkRoute ? (
         <>
-            <Link className="block w-full" to={linkRoute} onClick={clickFunc}>
+            <Link className="block w-full" to={linkRoute} onClick={handleClick}>
                 <ButtonContent />
             </Link>
         </>
     ) : (
         <>
-            <ButtonContent onClick={clickFunc} />
+            <ButtonContent onClick={handleClick} />
         </>
     );
 };
