@@ -5,13 +5,13 @@ const Home = () => {
     return <>
         <img className="object-cover h-44 w-full mb-5" src="https://picsum.photos/400" />
         <div className="p-5 container mx-auto ">
-            <div className="md:w-2/4 mx-auto">
-                <h1 className="text-4xl font-bold mb-2">
-                    Aquinas' Library
-                </h1>
-                <h2 className="text-2xl mb-3">
-                    Public Quiz Forum
-                </h2>
+            <div className="md:w-2/4 mx-auto">  
+                        <h1 className="text-4xl font-bold mb-2">
+                        ☀️ Aquinas' Library
+                        </h1>
+                        <h2 className="text-2xl mb-3">
+                            Public Quiz Forum
+                        </h2> 
                 <p className="">
                     “The intellect is moved by the command
                     of the will to assent to what is of 
@@ -23,7 +23,7 @@ const Home = () => {
             </div>
         </div>
         <div className="grid align-bottom p-5 gap-2 md:w-2/4 lg:w-1/4 mx-auto">
-            <Button name="START QUIZZING!" linkRoute="/" /> 
+            <Button color="accent" name="START QUIZZING!" linkRoute="/" /> 
             <Button name="LOG IN" linkRoute="/login" />
         </div>
     </>

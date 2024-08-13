@@ -13,7 +13,7 @@ const IntroPage = () => {
         console.log(isAnswering);
     }
  
-    const navigate = useNavigate(); 
+    // const navigate = useNavigate(); 
     
     return <>
     <div className="h-screen">
@@ -45,10 +45,10 @@ const IntroPage = () => {
                     [Return to feed]
                 </div>
             */}
-            <p className="mb-2">
+            <p className="mb-10">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, quos! Voluptatum atque temporibus fugiat, minima quos animi doloremque accusantium est? Sit, cumque magnam exercitationem minus   accusamus cum in quas perspiciatis.
             </p>
-            < Button name="Start Quiz" linkRoute="main_loop" onClick={handleClick} />
+            < Button color="accent" name="Start Quiz" linkRoute="main_loop" onClick={handleClick} />
         </div> 
     </div>
     </>

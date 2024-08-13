@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Button = ({ name, color, clickable = true, customWidth, linkRoute, clickFunc = () => {}}) => {
-    
+const Button = ({ name, color, clickable = true, customWidth, linkRoute, clickFunc = () => {} }) => {
+
     const handleClick = (e) => {
+        console.log('About to call clickFunc');
+        console.log('Clickable:', clickable);
         if (!clickable) {
             e.preventDefault();
         } else {
+            console.log("About to run func")
             clickFunc(e);
         }
     };
@@ -17,28 +20,26 @@ const Button = ({ name, color, clickable = true, customWidth, linkRoute, clickFu
         text-center
         ${customWidth ? `w-full md:w-${customWidth}` : "w-full"}
         ${!clickable ? "cursor-default" : ""}
-        ${color === "success" ? "bg-green-500 border-green-600" : ""}
+        ${color === "success" ? "bg-green-500 border-green-700" : ""}
         ${color === "danger" ? "bg-red-600 border-red-700" : ""}
-        ${color === "accent" ? "bg-indigo-500 border-indigo-600" : ""}
-        ${color === "muted" ? "bg-gray-500 border-gray-600" : ""}
+        ${color === "accent" ? "bg-yellow-500 border-yellow-700" : ""}
+        ${color === "muted" ? "bg-gray-500 border-gray-700" : ""}
     `;
 
-    const ButtonContent = () => (
-        <div className={buttonClass} role="button" aria-disabled={!clickable}>
+    const ButtonContent = ({ onClick }) => (
+        <div className={buttonClass} role="button" aria-disabled={!clickable} onClick={onClick}>
             {name}
         </div>
     );
 
     return linkRoute ? (
-        <>
-            <Link className="block w-full" to={linkRoute} onClick={handleClick}>
-                <ButtonContent />
-            </Link>
-        </>
+        <Link className="block w-full" to={linkRoute} onClick={handleClick}>
+            <ButtonContent />
+        </Link>
     ) : (
-        <>
-            <ButtonContent onClick={handleClick} />
-        </>
+        <div className="block w-full" onClick={handleClick}>
+            <ButtonContent />
+        </div>
     );
 };
 
@@ -49,7 +50,8 @@ Button.propTypes = {
     clickable: PropTypes.bool,
     fullWidth: PropTypes.bool,
     linkRoute: PropTypes.string,
-    clickFunc: PropTypes.func
+    clickFunc: PropTypes.func,
+    customWidth: PropTypes.string
 };
 
 export default Button;

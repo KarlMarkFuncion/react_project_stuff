@@ -11,16 +11,21 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/Navbar";
 import LoginSignupPage from "./pages/login/LoginSignupPage";
 
-function App() { 
+import { Provider } from 'react-redux';
+import store from "./redux/store";
 
-  return (
+function App() { 
     // Build V1.1 -- ADD A FUNCTION WHEREIN THE NAVBAR IS HIDDEN WHEN A QUIZ IS BEING TAKEN.
     // FOR now, just make sure it's on top of all the pages.
+  return (
+    
+    <Provider store={store}>
+    
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />}/>
-        <Route path="/" element={<FeedPage/>}/> 
+        <Route path="/" element={<Home />}/>
+        <Route path="/feed" element={<FeedPage/>}/> 
         <Route path="/quiz" element={<QuizRouter/>}>
             <Route path=":id" element={<IntroPage/>} />
             <Route path=":id/main_loop" element={<QuizPage/>}/>
@@ -38,6 +43,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+    </Provider>
   )
 }                     
 export default App

@@ -1,9 +1,15 @@
-const Question = ({content}) =>{
-    return<>
-        <h2 className="text-2xl text-bold ">
+import PropTypes from "prop-types";
+
+const Question = ({ content }) => {
+    return (
+        <div className="text-xl font-bold">
             {content}
-        </h2>
-    </>
-}
+        </div>
+    );
+};
+
+Question.propTypes = {
+    content: PropTypes.string.isRequired,
+};
 
 export default Question;
