@@ -51,7 +51,7 @@ Button.propTypes = {
     fullWidth: PropTypes.bool,
     linkRoute: PropTypes.string,
     clickFunc: PropTypes.func,
-    customWidth: PropTypes.string
+    customWidth: PropTypes.string,
 };
 
 export default Button;
