@@ -23,7 +23,7 @@ const Home = () => {
             </div>
         </div>
         <div className="grid align-bottom p-5 gap-2 md:w-2/4 lg:w-1/4 mx-auto">
-            <Button color="accent" name="START QUIZZING!" linkRoute="/" /> 
+            <Button color="accent" name="START QUIZZING!" linkRoute="/feed" /> 
             <Button name="LOG IN" linkRoute="/login" />
         </div>
     </>

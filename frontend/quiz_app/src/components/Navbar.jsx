@@ -17,12 +17,12 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <a href="#" className="text-gray-700 hover:text-gray-900">
+            <Link to={"/feed"}>
               Quizzes
-            </a>
-            <a href="#" className="bg-yellow-500 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-700">
+            </Link>
+            <Link to={"/login"} className="bg-yellow-500 text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600">
               Log In
-            </a>
+            </Link>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button
@@ -49,12 +49,12 @@ const Navbar = () => {
 
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="#" className="text-gray-700 block px-3 py-2 rounded-md text-base font-medium hover:text-gray-900">
+          <Link to={"/feed"} className="text-gray-700 block px-3 py-2 rounded-md text-base font-medium hover:text-gray-900">
             Quizzes
-          </a>
-          <a href="#" className="bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600">
-            Log In
-          </a>
+          </Link>
+          <Link to={"/login"} className="bg-yellow-500 text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600">
+            Log in
+          </Link>
         </div>
       </div>
     </nav>

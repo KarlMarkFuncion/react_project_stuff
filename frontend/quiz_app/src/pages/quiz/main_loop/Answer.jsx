@@ -10,7 +10,7 @@ const Answer = ({ content, isActive, isCorrect, isWrong, onClick }) => {
         className += " bg-red-500 border-red-700";
     } else if (isActive) {
         // Only add active styling if the answer is neither correct nor wrong
-        className += " border-yellow-500 text-yellow-800 font-black";
+        className += " border-yellow-500 text-yellow-800 font-bold";
     }
 
     // Modify the handleClick function to conditionally execute onClick
